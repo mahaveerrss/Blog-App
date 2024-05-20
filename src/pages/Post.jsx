@@ -54,7 +54,7 @@ export default function Post() {
                     <img
                         src={href}
                         alt={post.title}
-                        className="rounded-xl"
+                        className="rounded-xl  h-64"
                     />
 
                     {isAuthor && (
