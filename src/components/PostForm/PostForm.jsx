@@ -86,7 +86,7 @@ export default function PostForm({ post }) {
 
     return (
         <form onSubmit={handleSubmit(submit)} className="flex flex-wrap">
-            <div className="w-2/3 px-2">
+            <div className="w-full px-2">
                 <Input
                     label="Title :"
                     placeholder="Title"
@@ -106,7 +106,7 @@ export default function PostForm({ post }) {
             </div>
             <div className="w-1/3 px-2">
                 <Input
-                    label="Featured Image :"
+                    label={`Featured Image (*must upload) :`    }
                     type="file"
                     className="mb-4"
                     accept="image/png, image/jpg, image/jpeg, image/gif"

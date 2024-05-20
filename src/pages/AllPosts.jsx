@@ -21,7 +21,7 @@ function AllPosts() {
          <div className='flex flex-wrap'>
         
             {postsArray.map(post=>{
-         return ( <div key={post.$id} className='p-2 w-1/4'>
+         return ( <div key={post.$id} className='p-2 w-full'>
                  
                     <PostCard {...post}/>
                 </div>)
